@@ -33,7 +33,7 @@ if __name__ == "__main__":
                 line = input()
                 temp.append(line.lower())
 
-            #if len(temp) == 0
+            # if len(temp) == 0
             if is_valid(temp):
                 print('CORRECT')
             else:
